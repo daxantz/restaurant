@@ -42,9 +42,12 @@ function pageLoad() {
     locationContainer.append(locationHeading, addressText);
 
 
+    const homeDiv = document.createElement("div");
+    homeDiv.classList.add("homeDiv");
 
+    homeDiv.append(descriptionContainer, hoursContainer, locationContainer)
 
-    mainContentDiv.append(descriptionContainer, hoursContainer, locationContainer);
+    mainContentDiv.replaceChildren(homeDiv);
 
 }
 
