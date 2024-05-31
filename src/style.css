@@ -62,3 +62,8 @@ h1, h3, h2 {
     max-width: 100%;
     
 }
+
+/*about styles*/
+.aboutDiv {
+    text-align: center;
+}
